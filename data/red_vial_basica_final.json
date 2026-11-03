@@ -3,7 +3,7 @@
     "total_tramos": 267,
     "geocodificados": 257,
     "no_encontrados": 10,
-    "generado": "2026-10-29",
+    "generado": "2026-11-03",
     "fuente": "Resoluciones SEREMITT Biobío / OpenStreetMap (editor RVB)"
   },
   "tramos": [
@@ -487,10 +487,11 @@
         }
       ],
       "geocodificado": true,
-      "estado": "ok",
-      "motivo": "no se encontró cruce con \"Av. Arturo Prat\"",
-      "revisar": false,
-      "archivo": "Res Ex 68-2021 RVB Concepción.pdf"
+      "estado": "falta",
+      "motivo": "~26% del trazado (≈360 m) no queda sobre ninguna vía en OSM (posible rampa/acceso del puente).",
+      "revisar": true,
+      "archivo": "Res Ex 68-2021 RVB Concepción.pdf",
+      "nota": "Por revisar: ~26% del trazado (≈360 m) no queda sobre ninguna vía en OSM (posible rampa/acceso del puente)."
     },
     {
       "id": 10,
@@ -1179,10 +1180,11 @@
         }
       ],
       "geocodificado": true,
-      "estado": "ok",
-      "motivo": "no se encontró cruce con \"Plaza Perú\"",
-      "revisar": false,
-      "archivo": "Res Ex 68-2021 RVB Concepción.pdf"
+      "estado": "falta",
+      "motivo": "28% del trazado va por Av. Chacabuco en vez de Roosevelt.",
+      "revisar": true,
+      "archivo": "Res Ex 68-2021 RVB Concepción.pdf",
+      "nota": "Por revisar: 28% del trazado va por Av. Chacabuco en vez de Roosevelt."
     },
     {
       "id": 26,
@@ -1605,10 +1607,11 @@
         }
       ],
       "geocodificado": true,
-      "estado": "ok",
-      "motivo": "no se encontró cruce con \"Av. Ramón Carrasco\"",
-      "revisar": false,
-      "archivo": "Res Ex 68-2021 RVB Concepción.pdf"
+      "estado": "falta",
+      "motivo": "72% del trazado va por Av. Siete Lagunas en OSM, solo 14% por Av. Los Presidentes.",
+      "revisar": true,
+      "archivo": "Res Ex 68-2021 RVB Concepción.pdf",
+      "nota": "Por revisar: 72% del trazado va por Av. Siete Lagunas en OSM, solo 14% por Av. Los Presidentes."
     },
     {
       "id": 34,
@@ -2142,7 +2145,7 @@
         }
       ],
       "geocodificado": true,
-      "estado": "falta",
+      "estado": "ok",
       "motivo": "no se encontró cruce con \"Tierras Coloradas C\"",
       "revisar": false,
       "archivo": "Res Ex 68-2021 RVB Concepción.pdf"
@@ -2384,9 +2387,10 @@
       ],
       "geocodificado": true,
       "estado": "falta",
-      "motivo": "no se encontró cruce con \"Av. Jorge Alessandri\"",
-      "revisar": false,
-      "archivo": "Res Ex 68-2021 RVB Concepción.pdf"
+      "motivo": "solo 43% del trazado va sobre Camino Los Carros en OSM (~1,1 km fuera de la calle).",
+      "revisar": true,
+      "archivo": "Res Ex 68-2021 RVB Concepción.pdf",
+      "nota": "Por revisar: solo 43% del trazado va sobre Camino Los Carros en OSM (~1,1 km fuera de la calle)."
     },
     {
       "id": 57,
@@ -2877,7 +2881,7 @@
         }
       ],
       "geocodificado": true,
-      "estado": "falta",
+      "estado": "ok",
       "motivo": "no se encontró cruce con \"Camino Los Carros (Mencia de Los Nidos)\"",
       "revisar": false,
       "archivo": "Res Ex 68-2021 RVB Concepción.pdf"
@@ -4032,7 +4036,7 @@
         }
       ],
       "geocodificado": true,
-      "estado": "falta",
+      "estado": "ok",
       "motivo": "no se encontró cruce con \"Av. Pedro Aguirre Cerda\"",
       "revisar": false,
       "archivo": "Res Ex 568-2021 RVB San Pedro de la Paz.pdf"
@@ -4156,9 +4160,10 @@
       ],
       "geocodificado": true,
       "estado": "falta",
-      "motivo": "no se encontró cruce con \"Límite Comunal Coronel\"",
-      "revisar": false,
-      "archivo": "Res Ex 568-2021 RVB San Pedro de la Paz.pdf"
+      "motivo": "termina en Ruta de la Madera; solo 11/26 puntos sobre Pinto Lagarrigue en OSM.",
+      "revisar": true,
+      "archivo": "Res Ex 568-2021 RVB San Pedro de la Paz.pdf",
+      "nota": "Por revisar: termina en Ruta de la Madera; solo 11/26 puntos sobre Pinto Lagarrigue en OSM."
     },
     {
       "id": 108,
@@ -4348,7 +4353,7 @@
       },
       "waypoints": [],
       "geocodificado": true,
-      "estado": "falta",
+      "estado": "ok",
       "motivo": "Vía no encontrada en OSM",
       "revisar": false,
       "archivo": "Res Ex 568-2021 RVB San Pedro de la Paz.pdf"
@@ -4450,7 +4455,7 @@
         }
       ],
       "geocodificado": true,
-      "estado": "falta",
+      "estado": "ok",
       "motivo": "no se encontró cruce con \"Puente Llacolén\"",
       "revisar": false,
       "archivo": "Res Ex 568-2021 RVB San Pedro de la Paz.pdf"
@@ -4505,10 +4510,11 @@
         }
       ],
       "geocodificado": true,
-      "estado": "falta",
-      "motivo": "no se encontró cruce con \"Estero Los Batros\"",
+      "estado": "ok",
+      "motivo": "",
       "revisar": false,
-      "archivo": "Res Ex 568-2021 RVB San Pedro de la Paz.pdf"
+      "archivo": "Res Ex 568-2021 RVB San Pedro de la Paz.pdf",
+      "nota": null
     },
     {
       "id": 113,
@@ -4556,7 +4562,7 @@
         }
       ],
       "geocodificado": true,
-      "estado": "falta",
+      "estado": "ok",
       "motivo": "no se encontró cruce con \"Estero Los Batros\"",
       "revisar": false,
       "archivo": "Res Ex 568-2021 RVB San Pedro de la Paz.pdf"
@@ -4748,7 +4754,7 @@
         }
       ],
       "geocodificado": true,
-      "estado": "falta",
+      "estado": "ok",
       "motivo": "no se encontró cruce con \"Estero Los Batros\"",
       "revisar": false,
       "archivo": "Res Ex 568-2021 RVB San Pedro de la Paz.pdf"
@@ -4846,10 +4852,11 @@
         }
       ],
       "geocodificado": true,
-      "estado": "falta",
+      "estado": "ok",
       "motivo": "no se encontró cruce con \"Luis Urrejola\"; no se encontró cruce con \"Galvarino\"",
       "revisar": false,
-      "archivo": "Res Ex 568-2021 RVB San Pedro de la Paz.pdf"
+      "archivo": "Res Ex 568-2021 RVB San Pedro de la Paz.pdf",
+      "nota": "Falta tramo por construir hasta Galvarino (~220 m; en OSM Las Ilusiones termina antes). Trazado hasta donde existe la calle."
     },
     {
       "id": 121,
@@ -4913,10 +4920,11 @@
         }
       ],
       "geocodificado": true,
-      "estado": "falta",
-      "motivo": "no se encontró cruce con \"Las Ilusiones\"",
+      "estado": "ok",
+      "motivo": "",
       "revisar": false,
-      "archivo": "Res Ex 568-2021 RVB San Pedro de la Paz.pdf"
+      "archivo": "Res Ex 568-2021 RVB San Pedro de la Paz.pdf",
+      "nota": null
     },
     {
       "id": 122,
@@ -5075,10 +5083,11 @@
         }
       ],
       "geocodificado": true,
-      "estado": "ok",
-      "motivo": "no se encontró cruce con \"Límite Comunal Coronel\"",
-      "revisar": false,
-      "archivo": "Res Ex 568-2021 RVB San Pedro de la Paz.pdf"
+      "estado": "falta",
+      "motivo": "16% del trazado (≈630 m) no queda sobre ninguna vía en OSM; solo 71% sobre Av. Las Torres.",
+      "revisar": true,
+      "archivo": "Res Ex 568-2021 RVB San Pedro de la Paz.pdf",
+      "nota": "Por revisar: 16% del trazado (≈630 m) no queda sobre ninguna vía en OSM; solo 71% sobre Av. Las Torres."
     },
     {
       "id": 124,
@@ -5114,7 +5123,7 @@
         }
       ],
       "geocodificado": true,
-      "estado": "falta",
+      "estado": "ok",
       "motivo": "no se encontró cruce con \"Av. Pedro Aguirre Cerda\"",
       "revisar": false,
       "archivo": "Res Ex 568-2021 RVB San Pedro de la Paz.pdf"
@@ -5157,10 +5166,11 @@
         }
       ],
       "geocodificado": true,
-      "estado": "falta",
+      "estado": "ok",
       "motivo": "no se encontró cruce con \"Av. Pedro Aguirre Cerda\"",
       "revisar": false,
-      "archivo": "Res Ex 568-2021 RVB San Pedro de la Paz.pdf"
+      "archivo": "Res Ex 568-2021 RVB San Pedro de la Paz.pdf",
+      "nota": "Falta tramo por construir hasta Av. Costanera Mar (~120 m; en OSM Michaihue termina antes)."
     },
     {
       "id": 126,
@@ -5436,7 +5446,7 @@
         }
       ],
       "geocodificado": true,
-      "estado": "falta",
+      "estado": "ok",
       "motivo": "no se encontró cruce con \"Av. Pedro Aguirre Cerda\"",
       "revisar": false,
       "archivo": "Res Ex 568-2021 RVB San Pedro de la Paz.pdf"
@@ -5475,7 +5485,7 @@
         }
       ],
       "geocodificado": true,
-      "estado": "falta",
+      "estado": "ok",
       "motivo": "no se encontró cruce con \"Av. Costanera Río\"",
       "revisar": false,
       "archivo": "Res Ex 568-2021 RVB San Pedro de la Paz.pdf"
@@ -5742,9 +5752,10 @@
       ],
       "geocodificado": true,
       "estado": "falta",
-      "motivo": "no se encontró cruce con \"Daniel Belmar\"",
-      "revisar": false,
-      "archivo": "Res Ex 568-2021 RVB San Pedro de la Paz.pdf"
+      "motivo": "parte en Rodríguez Aldea pero se sale de ella (va por Boca Sur). En OSM Rodríguez Aldea no llega a Daniel Belmar (~267 m). Propuesta: recortar hasta donde llega + nota.",
+      "revisar": true,
+      "archivo": "Res Ex 568-2021 RVB San Pedro de la Paz.pdf",
+      "nota": "Por revisar: parte en Rodríguez Aldea pero se sale de ella (va por Boca Sur). En OSM Rodríguez Aldea no llega a Daniel Belmar (~267 m). Propuesta: recortar hasta donde llega + nota."
     },
     {
       "id": 138,
@@ -6104,10 +6115,11 @@
         }
       ],
       "geocodificado": true,
-      "estado": "falta",
+      "estado": "ok",
       "motivo": "no se encontró cruce con \"Costanera Rivera Sur\"",
       "revisar": false,
-      "archivo": "Res Ex 568-2021 RVB San Pedro de la Paz.pdf"
+      "archivo": "Res Ex 568-2021 RVB San Pedro de la Paz.pdf",
+      "nota": "Falta tramo por construir hasta Costanera Ribera Sur (no existe en terreno/OSM; Júpiter queda ~1 km antes). Trazado hasta donde existe la calle."
     },
     {
       "id": 147,
@@ -6148,9 +6160,10 @@
       ],
       "geocodificado": true,
       "estado": "falta",
-      "motivo": "no se encontró cruce con \"Venus\"; no se encontró cruce con \"Nueva 1\"",
-      "revisar": false,
-      "archivo": "Res Ex 568-2021 RVB San Pedro de la Paz.pdf"
+      "motivo": "77% sobre O'Carrol en OSM (~345 m fuera de la calle).",
+      "revisar": true,
+      "archivo": "Res Ex 568-2021 RVB San Pedro de la Paz.pdf",
+      "nota": "Por revisar: 77% sobre O'Carrol en OSM (~345 m fuera de la calle)."
     },
     {
       "id": 148,
@@ -6233,10 +6246,11 @@
         }
       ],
       "geocodificado": true,
-      "estado": "ok",
-      "motivo": "pasa 638 m por otras calles",
-      "revisar": false,
-      "archivo": "Res Ex 568-2021 RVB San Pedro de la Paz.pdf"
+      "estado": "falta",
+      "motivo": "28% del trazado va por Edgardo Garrido Merino en vez de Los Notros.",
+      "revisar": true,
+      "archivo": "Res Ex 568-2021 RVB San Pedro de la Paz.pdf",
+      "nota": "Por revisar: 28% del trazado va por Edgardo Garrido Merino en vez de Los Notros."
     },
     {
       "id": 150,
@@ -6272,10 +6286,11 @@
         }
       ],
       "geocodificado": true,
-      "estado": "falta",
+      "estado": "ok",
       "motivo": "no se encontró cruce con \"4 Poniente\"",
       "revisar": false,
-      "archivo": "Res Ex 568-2021 RVB San Pedro de la Paz.pdf"
+      "archivo": "Res Ex 568-2021 RVB San Pedro de la Paz.pdf",
+      "nota": "PRC proyecta la calle hasta 4 Poniente; en terreno no existe ese tramo (falta tramo por construir). Trazado solo hasta donde existe la calle."
     },
     {
       "id": 151,
@@ -6340,9 +6355,10 @@
       ],
       "geocodificado": true,
       "estado": "falta",
-      "motivo": "no se encontró cruce con \"Ruta 160\"",
-      "revisar": false,
-      "archivo": "Res Ex 568-2021 RVB San Pedro de la Paz.pdf"
+      "motivo": "solo 47% del trazado va sobre Progreso en OSM (~4 km fuera de la calle).",
+      "revisar": true,
+      "archivo": "Res Ex 568-2021 RVB San Pedro de la Paz.pdf",
+      "nota": "Por revisar: solo 47% del trazado va sobre Progreso en OSM (~4 km fuera de la calle)."
     },
     {
       "id": 152,
@@ -6366,9 +6382,10 @@
       "waypoints": [],
       "geocodificado": true,
       "estado": "falta",
-      "motivo": "no se encontró cruce con \"Nahuelbuta\"; no se encontró cruce con \"Progreso\"",
-      "revisar": false,
-      "archivo": "Res Ex 568-2021 RVB San Pedro de la Paz.pdf"
+      "motivo": "Nahuelbuta queda a ~4 km; el trazado termina sin tocar calle. Duda Las Araucarias vs Ruta 160.",
+      "revisar": true,
+      "archivo": "Res Ex 568-2021 RVB San Pedro de la Paz.pdf",
+      "nota": "Por revisar: Nahuelbuta queda a ~4 km; el trazado termina sin tocar calle. Duda Las Araucarias vs Ruta 160."
     },
     {
       "id": 153,
@@ -6408,10 +6425,11 @@
         }
       ],
       "geocodificado": true,
-      "estado": "revisar",
+      "estado": "ok",
       "motivo": "pasa 772 m por otras calles",
-      "revisar": true,
-      "archivo": "Res Ex 568-2021 RVB San Pedro de la Paz.pdf"
+      "revisar": false,
+      "archivo": "Res Ex 568-2021 RVB San Pedro de la Paz.pdf",
+      "nota": "PRC proyecta la calle hasta 4 Poniente; en terreno no existe ese tramo (falta tramo por construir). Trazado solo hasta donde existe la calle."
     },
     {
       "id": 154,
@@ -6967,9 +6985,10 @@
       "waypoints": [],
       "geocodificado": true,
       "estado": "falta",
-      "motivo": "Vía no encontrada en OSM",
-      "revisar": false,
-      "archivo": "Res Ex 79-2021 RVB Hualpén.pdf"
+      "motivo": "\"Antihuala\" no existe en OSM. En el PRC el tramo Postdam–Colón se llama Av. Los Copihues. Trazado actual 31 m.",
+      "revisar": true,
+      "archivo": "Res Ex 79-2021 RVB Hualpén.pdf",
+      "nota": "Por revisar: \"Antihuala\" no existe en OSM. En el PRC el tramo Postdam–Colón se llama Av. Los Copihues. Trazado actual 31 m."
     },
     {
       "id": 167,
@@ -7083,10 +7102,11 @@
         }
       ],
       "geocodificado": true,
-      "estado": "ok",
-      "motivo": "tramo muy corto (97 m)",
-      "revisar": false,
-      "archivo": "Res Ex 79-2021 RVB Hualpén.pdf"
+      "estado": "falta",
+      "motivo": "13% del trazado (≈705 m) no queda sobre ninguna vía en OSM; casi nada coincide con el nombre Las Golondrinas.",
+      "revisar": true,
+      "archivo": "Res Ex 79-2021 RVB Hualpén.pdf",
+      "nota": "Por revisar: 13% del trazado (≈705 m) no queda sobre ninguna vía en OSM; casi nada coincide con el nombre Las Golondrinas."
     },
     {
       "id": 170,
@@ -7275,9 +7295,10 @@
       ],
       "geocodificado": true,
       "estado": "falta",
-      "motivo": "no se encontró cruce con \"Av. Costanera\"; no se encontró cruce con \"Ramuntcho\"",
-      "revisar": false,
-      "archivo": "Res Ex 79-2021 RVB Hualpén.pdf"
+      "motivo": "67% sobre Camino a Ramuntcho en OSM (~2,7 km fuera de la calle).",
+      "revisar": true,
+      "archivo": "Res Ex 79-2021 RVB Hualpén.pdf",
+      "nota": "Por revisar: 67% sobre Camino a Ramuntcho en OSM (~2,7 km fuera de la calle)."
     },
     {
       "id": 171,
@@ -7399,9 +7420,10 @@
       ],
       "geocodificado": true,
       "estado": "falta",
-      "motivo": "no se encontró cruce con \"Calmar\"",
-      "revisar": false,
-      "archivo": "Res Ex 79-2021 RVB Hualpén.pdf"
+      "motivo": "últimos 2 puntos se salen de Postdam. En OSM Postdam no llega a Calmar (~700 m). Propuesta: recortar + nota.",
+      "revisar": true,
+      "archivo": "Res Ex 79-2021 RVB Hualpén.pdf",
+      "nota": "Por revisar: últimos 2 puntos se salen de Postdam. En OSM Postdam no llega a Calmar (~700 m). Propuesta: recortar + nota."
     },
     {
       "id": 174,
@@ -8431,10 +8453,11 @@
         }
       ],
       "geocodificado": true,
-      "estado": "ok",
-      "motivo": "pasa 944 m por otras calles",
-      "revisar": false,
-      "archivo": "Res Ex 2393-2022 Modifica RVB Talcahuano.pdf"
+      "estado": "falta",
+      "motivo": "37% del trazado va por Valdivia en vez de Almirante Latorre.",
+      "revisar": true,
+      "archivo": "Res Ex 2393-2022 Modifica RVB Talcahuano.pdf",
+      "nota": "Por revisar: 37% del trazado va por Valdivia en vez de Almirante Latorre."
     },
     {
       "id": 189,
@@ -9039,9 +9062,10 @@
       ],
       "geocodificado": true,
       "estado": "falta",
-      "motivo": "no se encontró cruce con \"Cruce Sta. Sofía\"",
-      "revisar": false,
-      "archivo": "Res Ex 942-2021 RVB Chiguayante.pdf"
+      "motivo": "depende de qué calle es \"Ruta O-60\" en Chiguayante (en OSM: Pedro de Valdivia / Manuel Rodríguez).",
+      "revisar": true,
+      "archivo": "Res Ex 942-2021 RVB Chiguayante.pdf",
+      "nota": "Por revisar: depende de qué calle es \"Ruta O-60\" en Chiguayante (en OSM: Pedro de Valdivia / Manuel Rodríguez)."
     },
     {
       "id": 201,
@@ -9085,7 +9109,7 @@
         }
       ],
       "geocodificado": true,
-      "estado": "falta",
+      "estado": "ok",
       "motivo": "no se encontró cruce con \"Cruce Sta. Sofía\"",
       "revisar": false,
       "archivo": "Res Ex 942-2021 RVB Chiguayante.pdf"
@@ -9327,10 +9351,11 @@
         }
       ],
       "geocodificado": true,
-      "estado": "falta",
-      "motivo": "no se encontró cruce con \"Esperanza\"",
+      "estado": "ok",
+      "motivo": "",
       "revisar": false,
-      "archivo": "Res Ex 942-2021 RVB Chiguayante.pdf"
+      "archivo": "Res Ex 942-2021 RVB Chiguayante.pdf",
+      "nota": null
     },
     {
       "id": 209,
@@ -9666,7 +9691,7 @@
         }
       ],
       "geocodificado": true,
-      "estado": "falta",
+      "estado": "ok",
       "motivo": "no se encontró cruce con \"8 Oriente\"",
       "revisar": false,
       "archivo": "Res Ex 942-2021 RVB Chiguayante.pdf"
@@ -9848,9 +9873,10 @@
       ],
       "geocodificado": true,
       "estado": "falta",
-      "motivo": "cruces encontrados pero sin camino por la vía",
-      "revisar": false,
-      "archivo": "Res Ex 942-2021 RVB Chiguayante.pdf"
+      "motivo": "\"Ruta O-60\" no figura con ese nombre en OSM (Pedro de Valdivia / Manuel Rodríguez). Confirmar eje.",
+      "revisar": true,
+      "archivo": "Res Ex 942-2021 RVB Chiguayante.pdf",
+      "nota": "Por revisar: \"Ruta O-60\" no figura con ese nombre en OSM (Pedro de Valdivia / Manuel Rodríguez). Confirmar eje."
     },
     {
       "id": 219,
@@ -10117,9 +10143,10 @@
       "waypoints": [],
       "geocodificado": true,
       "estado": "falta",
-      "motivo": "no se encontró cruce con \"Bernardo O´Higgins Poniente\"",
-      "revisar": false,
-      "archivo": "Res Ex 942-2021 RVB Chiguayante.pdf"
+      "motivo": "trazado de 7 m. El tramo O'Higgins Pte.–ribera queda dentro del #223 (¿duplicado o subtramo?).",
+      "revisar": true,
+      "archivo": "Res Ex 942-2021 RVB Chiguayante.pdf",
+      "nota": "Por revisar: trazado de 7 m. El tramo O'Higgins Pte.–ribera queda dentro del #223 (¿duplicado o subtramo?)."
     },
     {
       "id": 228,
@@ -10204,10 +10231,11 @@
         }
       ],
       "geocodificado": true,
-      "estado": "falta",
-      "motivo": "Vía no encontrada en OSM",
+      "estado": "ok",
+      "motivo": "",
       "revisar": false,
-      "archivo": "Res Ex 942-2021 RVB Chiguayante.pdf"
+      "archivo": "Res Ex 942-2021 RVB Chiguayante.pdf",
+      "nota": null
     },
     {
       "id": 231,
@@ -10388,10 +10416,11 @@
       },
       "waypoints": [],
       "geocodificado": true,
-      "estado": "revisar",
+      "estado": "ok",
       "motivo": "tramo muy corto (41 m)",
-      "revisar": true,
-      "archivo": "Oficio 14393-2021 Propuesta RVB Coronel.pdf"
+      "revisar": false,
+      "archivo": "Oficio 14393-2021 Propuesta RVB Coronel.pdf",
+      "nota": "Tramo corto real (~41 m) en la confluencia Sotomayor/Condell–Manuel Montt. Serrano no empalma directo con Sargento Aldea (cruza Sotomayor 1 cuadra al sur)."
     },
     {
       "id": 234,
@@ -10425,26 +10454,14 @@
       "pagina": 1,
       "propuesta": true,
       "punto_inicio": {
-        "lat": -37.016637,
-        "lon": -73.156392
+        "lat": -37.022222,
+        "lon": -73.153995
       },
       "punto_fin": {
         "lat": -37.030173,
         "lon": -73.146195
       },
       "waypoints": [
-        {
-          "lat": -37.016573,
-          "lon": -73.156967
-        },
-        {
-          "lat": -37.022222,
-          "lon": -73.154301
-        },
-        {
-          "lat": -37.022216,
-          "lon": -73.153995
-        },
         {
           "lat": -37.022322,
           "lon": -73.153698
@@ -10463,10 +10480,11 @@
         }
       ],
       "geocodificado": true,
-      "estado": "revisar",
+      "estado": "ok",
       "motivo": "pasa 720 m por otras calles",
-      "revisar": true,
-      "archivo": "Oficio 14393-2021 Propuesta RVB Coronel.pdf"
+      "revisar": false,
+      "archivo": "Oficio 14393-2021 Propuesta RVB Coronel.pdf",
+      "nota": "Corregido: el trazado partía en Cruz Mora e iba ~720 m por Costanera/Carlos Prats. Los Carrera parte en su empalme con Manuel Montt (OSM). Hay otro tramo de Los Carrera al norte de Cruz Mora, fuera de este tramo."
     },
     {
       "id": 236,
@@ -10489,10 +10507,11 @@
       },
       "waypoints": [],
       "geocodificado": true,
-      "estado": "revisar",
+      "estado": "ok",
       "motivo": "tramo muy corto (52 m)",
-      "revisar": true,
-      "archivo": "Oficio 14393-2021 Propuesta RVB Coronel.pdf"
+      "revisar": false,
+      "archivo": "Oficio 14393-2021 Propuesta RVB Coronel.pdf",
+      "nota": "Tramo corto real (1 cuadra, lado poniente de la Plaza de Armas)."
     },
     {
       "id": 237,
@@ -10541,10 +10560,11 @@
       },
       "waypoints": [],
       "geocodificado": true,
-      "estado": "revisar",
+      "estado": "ok",
       "motivo": "tramo muy corto (114 m)",
-      "revisar": true,
-      "archivo": "Oficio 14393-2021 Propuesta RVB Coronel.pdf"
+      "revisar": false,
+      "archivo": "Oficio 14393-2021 Propuesta RVB Coronel.pdf",
+      "nota": "Tramo corto real (1 cuadra entre Manuel Montt y Sotomayor)."
     },
     {
       "id": 239,
@@ -10567,10 +10587,11 @@
       },
       "waypoints": [],
       "geocodificado": true,
-      "estado": "revisar",
+      "estado": "ok",
       "motivo": "tramo muy corto (83 m)",
-      "revisar": true,
-      "archivo": "Oficio 14393-2021 Propuesta RVB Coronel.pdf"
+      "revisar": false,
+      "archivo": "Oficio 14393-2021 Propuesta RVB Coronel.pdf",
+      "nota": "Tramo corto real (1 cuadra, lado norte de la Plaza de Armas)."
     },
     {
       "id": 240,
@@ -10628,10 +10649,11 @@
       },
       "waypoints": [],
       "geocodificado": true,
-      "estado": "revisar",
+      "estado": "ok",
       "motivo": "tramo muy corto (102 m)",
-      "revisar": true,
-      "archivo": "Oficio 14393-2021 Propuesta RVB Coronel.pdf"
+      "revisar": false,
+      "archivo": "Oficio 14393-2021 Propuesta RVB Coronel.pdf",
+      "nota": "Tramo corto real (1 cuadra, lado sur de la Plaza de Armas)."
     },
     {
       "id": 242,
@@ -11023,10 +11045,11 @@
         }
       ],
       "geocodificado": true,
-      "estado": "revisar",
+      "estado": "ok",
       "motivo": "tramo muy corto (87 m)",
-      "revisar": true,
-      "archivo": "Oficio 14393-2021 Propuesta RVB Coronel.pdf"
+      "revisar": false,
+      "archivo": "Oficio 14393-2021 Propuesta RVB Coronel.pdf",
+      "nota": "Tramo corto real (1 cuadra, Costanera Maule–Las Rocas, al sur de Uno Norte). En OSM la calle no tiene nombre."
     },
     {
       "id": 252,
